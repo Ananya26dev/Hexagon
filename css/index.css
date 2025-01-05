@@ -1,0 +1,169 @@
+/* General Styles */
+body{
+    font-size: 14px;
+    font-family: "Poppins", serif;
+}
+button{
+    transition: transform 0.5s ease-in-out;
+}
+button:hover{
+    transform: scaleX(1.2);
+}
+.text-justify{
+    text-align: justify;
+}
+hr{
+    height: 4px;
+    border-radius: 4px;
+}
+.w-10{
+    width: 10%;
+} 
+.h-200{
+    height: 200px;
+}
+
+/* Navbar Styles */
+.nav-container{
+    margin-top: 25px;
+}
+.logo{
+    width: 225px;
+}
+.navbar-collapse {
+    transition: all 0.3s ease; 
+}
+.navbar-nav .nav-link {
+    font-size: 1.2rem; 
+    color: #fff; 
+    text-align: center; 
+    padding: 0.5rem 1rem;
+}
+.navbar-nav .nav-link:hover{
+    color: #7be7a8;
+}
+
+/* Header Styles */
+.banner-title{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+}
+.banner-content{
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+}
+
+/* Promotion Section Styles */
+#promote h2{
+    font-family: "Parkinsans", sans-serif;
+}
+.promote-hr{
+    background-color: #008d20;
+    border: none;
+    margin: 20px auto;
+    width: 25%;
+}
+#portfolio .btn-group .active{
+    background-color: #46e26a;
+    color: #fff;
+}
+
+/* Testimonials Section Styles */
+.client-photo{
+    width: 100px;
+    height: 100px;
+}
+.testimonial-text{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Team Section Styles */
+.team-member img {
+    transition: transform 0.5s ease;
+}
+.team-member:hover img {
+    transform: scale(1.1);
+}
+.team-member .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.team-member:hover .overlay {
+    opacity: 1;
+}
+.team-member .social-icons a {
+    font-size: 1.5rem;
+}
+
+/* Services Section Styles */
+#services img{
+    width: 80px;
+    height: 80px;
+    transition: transform 0.5s ease-in-out;
+}
+#services img:hover{
+    transform: scale(1.15);
+}
+
+/* Information Section Styles */
+.info-text{
+    font-family: "Jaro", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* Contact Us Section Styles */
+.getintouch{
+    font-size: 24px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+}
+
+/* Responsive Design */
+@media screen and (width: 1024px) {
+    .testimonial-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo{
+        width: 150px;
+    }
+    .nav-container{
+        margin-top: 0;
+    }
+    .navbar-collapse.show {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .info-text{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .banner-title{
+        font-size: 18px;
+        margin-top: 45px;
+        margin-bottom: 5px;
+    }
+    .banner-content{
+        font-size: 14px;
+    }
+    #promote h2{
+        font-size: 18px;
+    }
+    .info-text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .banner-title{
+        font-size: 15px;
+    }
+    .banner-content{
+        font-size: 12px;
+    }
+}
